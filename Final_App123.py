@@ -1,9 +1,7 @@
 import pandas as pd
 import pickle
 import shap
-import ipywidgets as widgets
-from IPython.display import display
-from ipywidgets import interact,fixed,interactive,interact_manual
+
 import warnings
 warnings.filterwarnings('ignore')
 import plotly.express as px
@@ -13,7 +11,7 @@ import seaborn as sn
 import matplotlib.pyplot as plt
 import pickle
 import streamlit as st
-from PIL import Image
+
 import joblib
 from xgboost import XGBRegressor
 from sklearn.preprocessing import LabelEncoder
