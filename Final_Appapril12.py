@@ -272,7 +272,7 @@ def main():
         fig, ax = plt.subplots()
         ax.barh(df['Weights'], df['Feature Importance'], color='blue')
         ax.set_xlabel('Feature Importance')
-        ax.set_ylabel('Weights')
+        ax.set_ylabel('Feature')
         ax.set_title('Feature Importance Bar Chart')
         st.pyplot(fig)      
         
