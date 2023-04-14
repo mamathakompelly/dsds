@@ -263,7 +263,7 @@ def main():
                         "Prcp-4day",
                         "Wspd-5day",
 ],
-              'Feature Importance': [30,25,20,10,9,8,7.5,7,6,5,4,3,2,1]
+              'Feature Importance': [.9,.8,.7,.6,.5,.4,.3,.2,.15,.14,.13,.12,.11,.1]
         }
         df = pd.DataFrame(data)
         df= df.sort_values(by='Feature Importance')
