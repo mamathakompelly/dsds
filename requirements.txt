@@ -142,3 +142,10 @@ fastapi==0.68.1
 uvicorn==0.15.0
 sqlalchemy==1.4.23
 pydantic==1.8.2
+-f --extra-index-url https://download.pytorch.org/whl/cu116
+torch
+torchvision
+numpy
+transformers
+accelerate
+git+https://github.com/huggingface/diffusers
