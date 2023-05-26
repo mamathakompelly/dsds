@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Function to generate images using DALL·E model
 def generate_images(prompt, num_images=3):
