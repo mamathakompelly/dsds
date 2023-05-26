@@ -149,3 +149,4 @@ numpy
 transformers
 accelerate
 git+https://github.com/huggingface/diffusers
+openai
